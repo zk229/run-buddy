@@ -98,3 +98,52 @@ section{
     border: none;
     padding: 10px 20px;
 }
+.intro{
+    text-align: center;
+}
+.section-title{
+    font-size: 55px;
+    color: #024E76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    /* makes block not fit width of screen (parent element) */
+    display: inline-block;
+}
+.primary-border{
+    border-color: #FCE138;
+}
+.secondary-border{
+    border-color: #39A6B2;
+}
+.intro p{
+    line-height: 1.7;
+    color: #39A6B2;
+    width: 80%;
+    font-size: 20px;
+    /* make paragraph in center of screen - auto create left and right margins */
+    margin: 0 auto;
+}
+.steps{
+    text-align: center;
+    background: #FCE138;
+}
+.steps div{
+    margin-bottom: 80px;
+}
+.steps img{
+    width: 15%;
+    margin: 10px 0;
+}
+.steps h3{
+    color: #024E76;
+    font-size: 46px;
+    margin-top: 10px;
+}
+.steps p{
+    color: #39A6B2;
+    font-size: 23px;
+}
+.steps span{
+    font-size: 38px;
+}
