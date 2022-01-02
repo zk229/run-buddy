@@ -88,6 +88,8 @@ section{
     padding: 20px;
     color: #024E76;
     border: solid 3px #024E76;
+    width: 40%;
+    margin: 3.5%;
 }
 .hero-form h3{
     font-size: 24px;
@@ -114,34 +116,15 @@ section{
     border: none;
     padding: 10px 20px;
 }
-.intro{
-    text-align: center;
-}
-.section-title{
-    font-size: 55px;
-    color: #024E76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    /* makes block not fit width of screen (parent element) */
-    display: inline-block;
-}
-.primary-border{
-    border-color: #FCE138;
-}
-.secondary-border{
-    border-color: #39A6B2;
-}
 .intro p{
     line-height: 1.7;
     color: #39A6B2;
     width: 80%;
     font-size: 20px;
-    /* make paragraph in center of screen - auto create left and right margins */
     margin: 0 auto;
+    text-align: center;
 }
 .steps{
-    text-align: center;
     background: #FCE138;
 }
 .steps div{
@@ -165,9 +148,6 @@ section{
 }
 
 /* Style for Trainers section */
-.trainers{
-    text-align: center;
-}
 .trainer{
     width: 900px;
     margin: 0 auto 30px auto;
@@ -197,17 +177,10 @@ section{
     font-size: 17px;
     line-height: 1.3;
 }
-.text-left{
-    text-align: left;
-}
-.text-right{
-    text-align: right;
-}
 /* End of Trainers section */
 
 /* Style for Reach Out section */
 .contact{
-    text-align: center;
     background: #024E76;
     overflow: auto;
 }
@@ -240,3 +213,29 @@ section{
     color: #FCE138
 }
 /* End of Reach Out style */
+
+/* Utility classes */
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.flex-row {
+    display: flex;
+}
+.section-title{
+    font-size: 55px;
+    color: #024E76;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+.primary-border{
+    border-color: #FCE138;
+}
+.secondary-border{
+    border-color: #39A6B2;
+}
